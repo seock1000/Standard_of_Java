@@ -11,19 +11,19 @@ class Point implements Cloneable {
         return "x=" + x + ", y=" + y;
     }
 
-    public Object clone() {
+    public Point clone() {
         Object obj = null;
         try {
             obj = super.clone(); // clone()은 반드시 예외처리
         } catch (CloneNotSupportedException e) { }
-        return obj;
+        return (Point)obj; // 공변 반환타입 적용, 조상 메서드를 오버라이딩해서 자손 클래스로 반환 타입을 변경하였다.
     }
 }
 
 public class CloneEx {
     public static void main(String[] args) {
         Point original = new Point(3,5);
-        Point copy = (Point)original.clone(); // 복제(clone) 해서 새로운 객체를 생성
+        Point copy = original.clone(); // 복제(clone) 해서 새로운 객체를 생성
         System.out.println(original);
         System.out.println(copy);
     }
