@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Standard_of_Java.iml" filepath="$PROJECT_DIR$/.idea/Standard_of_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringEncoding/StringEncoding.iml" filepath="$PROJECT_DIR$/StringEncoding/StringEncoding.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringEx1/StringEx1.iml" filepath="$PROJECT_DIR$/StringEx1/StringEx1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WrapperClass/WrapperClass.iml" filepath="$PROJECT_DIR$/WrapperClass/WrapperClass.iml" />
     </modules>
   </component>
 </project>
