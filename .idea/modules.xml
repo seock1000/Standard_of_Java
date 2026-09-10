@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayClone/ArrayClone.iml" filepath="$PROJECT_DIR$/ArrayClone/ArrayClone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calendar/Calendar.iml" filepath="$PROJECT_DIR$/Calendar/Calendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassEx/ClassEx.iml" filepath="$PROJECT_DIR$/ClassEx/ClassEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/CloneEx/CloneEx.iml" filepath="$PROJECT_DIR$/CloneEx/CloneEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComparisonStringBuffer/ComparisonStringBuffer.iml" filepath="$PROJECT_DIR$/ComparisonStringBuffer/ComparisonStringBuffer.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Standard_of_Java.iml" filepath="$PROJECT_DIR$/.idea/Standard_of_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringEncoding/StringEncoding.iml" filepath="$PROJECT_DIR$/StringEncoding/StringEncoding.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringEx1/StringEx1.iml" filepath="$PROJECT_DIR$/StringEx1/StringEx1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringTokenizer/StringTokenizer.iml" filepath="$PROJECT_DIR$/StringTokenizer/StringTokenizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/WrapperClass/WrapperClass.iml" filepath="$PROJECT_DIR$/WrapperClass/WrapperClass.iml" />
     </modules>
   </component>

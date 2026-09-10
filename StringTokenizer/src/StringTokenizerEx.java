@@ -1,0 +1,27 @@
+import java.util.StringTokenizer;
+
+public class StringTokenizerEx {
+    public static void main(String[] args) {
+        String exp = "x=100*(200+300)/2";
+        StringTokenizer st = new StringTokenizer(exp, "+-*/=()", true);
+
+        while (st.hasMoreTokens()) {
+            System.out.println(st.nextToken());
+        }
+    }
+}
+
+/**
+ * 실행 결과
+ * x
+ * =
+ * 100
+ * *
+ * (
+ * 200
+ * +
+ * 300
+ * )
+ * /
+ * 2
+*/
